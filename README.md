@@ -20,3 +20,32 @@ css 만들어짐
 # savePath:null 이면 scss 파일과 같은 위치에 style.css가 생긴다.
 
 ![image](https://github.com/sjeroh/sass/assets/36749506/a9b631e4-5ba1-4da3-9aed-75dcf92dae0a)
+
+![image](https://github.com/sjeroh/sass/assets/36749506/868ae9cb-0c39-4921-8a57-6f53feb4177f)
+
+# ~은 style.scss를 의미, / 는 style.scss 가 있는 폴더
+
+![image](https://github.com/sjeroh/sass/assets/36749506/f79a4754-cc32-4db1-b8d6-b326d0ca10a1)
+
+# scss 파일이 있는 폴더의 상위 요소에 생성
+
+![image](https://github.com/sjeroh/sass/assets/36749506/b5941a9b-088d-403e-b978-2c61a4d99921)
+
+
+
+2. savePath 설정
+./ = 현재 파일의 위치
+../ 현재 파일의 부모 폴더
+~/ 현재 작성중인 Scss 파일의 위치
+여기서 ./ 과 ~/이 헷갈릴 수 있는데
+접근순서가 다르다.
+
+# 주석처리 방법
+# // 주석처리 방법은 css로 컴파일 되지 않는다
+# /**/ css로 컴파일된다.
+![image](https://github.com/sjeroh/sass/assets/36749506/0d3af72f-b79e-4aed-bf71-c43fe610b5fa)
+
+scss 에서는 //
+/* */ 이주석은 css에 나온다.
+
+
