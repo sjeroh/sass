@@ -15,5 +15,8 @@ css 만들어짐
 
 # css 위치 변경
 
-![image](https://github.com/sjeroh/sass/assets/36749506/755d317e-befa-4791-8dc3-9f0ea2ad55b6)
+![image](https://github.com/sjeroh/sass/assets/36749506/db3eca3b-4ef3-40e3-aa83-d7341ee30940)
 
+# savePath:null 이면 scss 파일과 같은 위치에 style.css가 생긴다.
+
+![image](https://github.com/sjeroh/sass/assets/36749506/a9b631e4-5ba1-4da3-9aed-75dcf92dae0a)
