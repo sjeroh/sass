@@ -12,3 +12,8 @@ SASS 사용안함. SCSS를 사용한다.(좀 쉽게 변한 scss를 주로 사용
 scss파일 -> ![image](https://github.com/sjeroh/sass/assets/36749506/240e714a-2f87-4cf0-b0f3-2d1517a2a68e)
 
 css 만들어짐
+
+# css 위치 변경
+
+![image](https://github.com/sjeroh/sass/assets/36749506/755d317e-befa-4791-8dc3-9f0ea2ad55b6)
+
