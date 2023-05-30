@@ -50,4 +50,14 @@ scss 에서는 //
 
 
 # 변수만들기 --> $ 로 시작함 (영문, 숫자, - , _) 만 사용할 수 있음. 숫자로 시작 할 수 없음!
+> 호이스팅 안됨 상단에 나오도록 해야함.
+> 세미콜론을 변수 만들고 꼭 붙여줘야한다.
+
+![image](https://github.com/sjeroh/sass/assets/36749506/150da50d-7707-4be5-9069-25a56b6fc8c4)
+안에서 & 넣으면 상위요소를 말함.
+
+![image](https://github.com/sjeroh/sass/assets/36749506/a3f06c72-b65c-4a44-a62d-054a7428fc48)
+
+띄워쓰기 되니 &로  after는 선택해줘야함
+![image](https://github.com/sjeroh/sass/assets/36749506/71ce2516-fc46-4118-af0a-7176f1b661af)
 
