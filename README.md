@@ -83,6 +83,11 @@ _도 사라지고 확장명도 사라진다.
 ![image](https://github.com/sjeroh/sass/assets/36749506/4bfc17a3-7353-4b42-9910-af7ecd57aa84)
 ![image](https://github.com/sjeroh/sass/assets/36749506/cf05052a-89a1-4d4c-9d67-4c477898868f)
 
+# as 뒤에 별명을 붙여서 사용할 수 있다.
+![image](https://github.com/sjeroh/sass/assets/36749506/2b972f58-1ca7-4fad-b863-4f2729a95d9e)
+
+# @forward는 파샬을 묶어줌. style.scss에서는 index.scss를 호출하여 사용함.
+![image](https://github.com/sjeroh/sass/assets/36749506/af71dd8c-5e09-4999-86c4-b752a16b61d9)
 
 
 
