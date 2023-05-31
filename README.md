@@ -74,3 +74,12 @@ scss 에서는 //
 _도 사라지고 확장명도 사라진다.
 
 ![image](https://github.com/sjeroh/sass/assets/36749506/ef32d03d-b4c7-4cca-9817-b7ddd5265496)
+
+# @import
+
+# @use
+![image](https://github.com/sjeroh/sass/assets/36749506/4bfc17a3-7353-4b42-9910-af7ecd57aa84)
+
+
+
+
