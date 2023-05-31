@@ -89,5 +89,8 @@ _도 사라지고 확장명도 사라진다.
 # @forward는 파샬을 묶어줌. style.scss에서는 index.scss를 호출하여 사용함.
 ![image](https://github.com/sjeroh/sass/assets/36749506/af71dd8c-5e09-4999-86c4-b752a16b61d9)
 
+# 묶고 as * (와일드카드)를 붙이면 이름을 생략할 수 있다.
+
+![image](https://github.com/sjeroh/sass/assets/36749506/f266852b-df52-42d0-8e45-098d3e96a279)
 
 
