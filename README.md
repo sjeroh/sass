@@ -75,10 +75,13 @@ _도 사라지고 확장명도 사라진다.
 
 ![image](https://github.com/sjeroh/sass/assets/36749506/ef32d03d-b4c7-4cca-9817-b7ddd5265496)
 
-# @import
+# @import --> 변수가 중복될때는 아래의 것이 적용된다.
+![image](https://github.com/sjeroh/sass/assets/36749506/2e078831-8ae3-46d1-b62f-30e7ca2f75c3)
 
-# @use
+
+# @use --> 변수이름이 같을때 에러발생, @use를 사용할때는 앞에 파일명을 추가해서 파일명.변수명
 ![image](https://github.com/sjeroh/sass/assets/36749506/4bfc17a3-7353-4b42-9910-af7ecd57aa84)
+![image](https://github.com/sjeroh/sass/assets/36749506/cf05052a-89a1-4d4c-9d67-4c477898868f)
 
 
 
