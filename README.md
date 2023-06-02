@@ -107,3 +107,8 @@ _도 사라지고 확장명도 사라진다.
 # 함수
 ![image](https://github.com/sjeroh/sass/assets/36749506/95d62307-ae4b-4fe1-ba2b-e9550d7452cf)
 
+![image](https://github.com/sjeroh/sass/assets/36749506/64ec537b-fa56-4cc0-96f3-4f9752cd6134)
+
+# extend
+![image](https://github.com/sjeroh/sass/assets/36749506/2df50b37-56d7-4972-89f2-b8f6cc9778f4)
+
