@@ -94,3 +94,16 @@ _도 사라지고 확장명도 사라진다.
 ![image](https://github.com/sjeroh/sass/assets/36749506/f266852b-df52-42d0-8e45-098d3e96a279)
 
 
+# 전역변수와 지역변수
+![image](https://github.com/sjeroh/sass/assets/36749506/e9a3bdb7-8260-4ad8-a5b1-845e6d0ae6f8)
+
+
+# 보간법
+![image](https://github.com/sjeroh/sass/assets/36749506/19cd9cca-5abc-442c-b6b1-5a3ff6b0379e)
+
+# nesting(네스팅) --품다
+![image](https://github.com/sjeroh/sass/assets/36749506/643410d0-0a6c-45cb-a1aa-c1170a5bbccf)
+
+# 함수
+![image](https://github.com/sjeroh/sass/assets/36749506/95d62307-ae4b-4fe1-ba2b-e9550d7452cf)
+
