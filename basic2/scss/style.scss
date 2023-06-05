@@ -1,0 +1,6 @@
+@use "./partials/" as *;
+
+//임포트 밑에 애가 더 강함.
+
+h1{color: $color-primary1;}
+p{color: $color-primary2;}

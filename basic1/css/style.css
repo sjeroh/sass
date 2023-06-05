@@ -1,0 +1,16 @@
+@charset "UTF-8";
+body {
+  background-color: #00f;
+}
+
+/* 주석입니다 */
+.wrap {
+  font-size: 20px;
+  border: 1px solid #ccc;
+}
+.wrap::after {
+  content: "";
+}
+.wrap h1 {
+  color: red;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,15 @@
+$spacer:5px;
+
+.box{
+  width: 100px;
+  $space20:$spacer*3;
+  margin-top: $space20;
+}
+
+// 중괄호 안에서 만들어진 변수를 지역변수라고 한다. 그 안에서만 사용가능 일종의 지역화폐
+// 밖에서 만든녀석은 전역변수. 전부다 사용가능
+.box2{
+  //지역변수는 다른 지역에서 쓸 수 없다. 
+  // width: $space20;
+  margin-top: $spacer;
+}

@@ -1,0 +1,35 @@
+@charset "UTF-8";
+.box {
+  width: 100px;
+  height: 100px;
+  border: 1px solid #333;
+  background-color: skyblue;
+}
+.box + .box {
+  color: red;
+}
+
+#box > .box5 {
+  border: 8px solid palegoldenrod;
+}
+#box > .box5:hover {
+  border-color: rebeccapurple;
+}
+#box > .box5 .box {
+  background-color: darkblue;
+}
+#box > .box5 .box:hover {
+  background-color: darksalmon;
+}
+#box > .box5 .box span {
+  font-size: 3rem;
+}
+#box::after {
+  content: "★";
+}
+
+#box .box {
+  color: blue;
+  font-size: 18px;
+  font-weight: bold;
+}/*# sourceMappingURL=style.css.map */

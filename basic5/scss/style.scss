@@ -1,0 +1,52 @@
+$width:10;
+$color-primary:skyblue;
+
+
+.box{
+  width: #{$width*$width}px;
+  height: #{$width*$width}px;
+  border: 1px solid #333;
+  background-color: $color-primary;
+  
+  & + &{color: red;}
+}
+
+#box{
+  >.box5{
+    border: 8px solid palegoldenrod;
+    &:hover{
+      border-color: rebeccapurple;
+    }
+    .box{background-color: darkblue;
+      &:hover{
+        background-color: darksalmon;
+      }
+      span{
+        font-size: 3rem;
+      }
+
+    }
+  }
+  &::after{
+    content: '★';
+  }
+}
+
+#box{
+  .box{
+    color: blue;
+    // font-size: 12px;
+    // font-weight: bold;
+    font: {size: 18px;
+      weight:bold;
+    }
+  }
+}
+
+$fz2:2rem;
+
+// #box{
+//   .box5>.box>span{
+//     font-size: $fz2;
+//   }
+// }

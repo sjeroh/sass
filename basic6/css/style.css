@@ -1,0 +1,11 @@
+.box {
+  font-size: 30px;
+  width: 100px;
+  height: 70px;
+  background-color: rgb(221, 202, 202);
+  color: rgba(26, 12, 84, 0.8);
+}
+.box:hover {
+  color: black;
+  font-weight: 700;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,18 @@
+@import './partials/var';
+
+body{background-color: $bg-color;}
+
+/* 주석입니다 */
+//css로 컴파일되지 않는 주석
+
+.wrap{
+  font-size: 20px;
+  border: 1px solid #ccc;
+  &::after{
+    content: '';
+  }
+  h1{
+    color: $color;
+  }
+}
+
