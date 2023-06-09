@@ -1,0 +1,22 @@
+.flex {
+  background-color: skyblue;
+}
+.flex .box-big {
+  font-size: 20px;
+}
+.flex .box-sm {
+  font-size: 13px;
+}
+
+.flex {
+  background-color: skyblue;
+}
+.flex .box-big {
+  font-size: 1.7em;
+}
+.flex .box-mid {
+  font-size: 1.4em;
+}
+.flex .box-sm {
+  font-size: 1.1em;
+}/*# sourceMappingURL=style.css.map */

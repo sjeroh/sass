@@ -1,0 +1,25 @@
+@use './partials/mixins';
+
+header{
+  h1{
+    font-size: 40px;
+    @include mixins.breakpoints-up(md){
+      font-size: 60px;
+      color:red;
+    }
+  }
+  h2{
+    font-size: 30px;
+    @include mixins.breakpoint-down(xl){
+      font-size: 70px;
+      color: blue;
+    }
+
+  }
+  h3{
+    @include mixins.breakpoint-down(xs){
+      font-size: 12px;
+      color: tan;
+    }
+  }
+}

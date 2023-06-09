@@ -1,0 +1,38 @@
+$breakpoint:(
+  xs:0,
+  sm:576px,
+  md:768px,
+  lg:992px,
+  xl:1200px,
+  xxl:1400px,
+);
+
+
+@mixin breakpoints-up($bp){
+  $min-value:map-get($breakpoint , $bp);
+  @if($bp == xs){
+    //모든구간을 말한다.
+    @content;
+  }@else{
+    @media (min-width: $min-value){
+      @content;
+    }
+  }
+
+}
+
+@mixin breakpoint-down($bp){
+  $max-value:0px;
+  @if($bp == xs){
+    //최대 0, 0이하는 존재할수 없다.
+    @error "Breakpoint 0 isn't available.";
+  }@else{
+   $max-value:map-get($breakpoint, $bp);
+  
+  }
+  @media (max-width:$max-value) {
+    @content;
+  }
+
+ 
+}

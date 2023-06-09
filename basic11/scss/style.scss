@@ -1,0 +1,48 @@
+// 맵형 데이터 만들기 map형 -> object 객체와 비슷
+$icon-types:(
+  'r':#ea6f6f,
+  'g':#68eb68,
+  'b':#6a6aed
+);
+
+$device-type:(
+  'phone':500px,
+  'tablet':900px,
+  'desktop':1200px,
+);
+
+@mixin mq($dt){
+  $breakpoint:map-get($device-type, $dt);
+  @media(max-width: $breakpoint){
+    @content 
+  }
+}
+
+h2{
+  font-size: 64px;
+  @include mq('desktop'){
+    font-size: 56px;
+  }
+  @include mq('tablet'){
+    font-size: 40px;
+  }
+  @include mq('phone'){
+    font-size: 20px;
+  }
+}
+
+h1{
+  //map형 데이터를 사용하기 위해서는
+  //map-get 함수를 사용하여
+  //map-get(변수,키)
+
+  color: map-get($icon-types, 'g' );
+}
+
+
+// @each 키, 키값 in 변수{}
+@each $k,$kv in $icon-types{
+  .icon-#{$k}{
+    color: $kv;
+  }
+}

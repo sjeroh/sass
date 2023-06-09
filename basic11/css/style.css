@@ -1,0 +1,34 @@
+h2 {
+  font-size: 64px;
+}
+@media (max-width: 1200px) {
+  h2 {
+    font-size: 56px;
+  }
+}
+@media (max-width: 900px) {
+  h2 {
+    font-size: 40px;
+  }
+}
+@media (max-width: 500px) {
+  h2 {
+    font-size: 20px;
+  }
+}
+
+h1 {
+  color: #68eb68;
+}
+
+.icon-r {
+  color: #ea6f6f;
+}
+
+.icon-g {
+  color: #68eb68;
+}
+
+.icon-b {
+  color: #6a6aed;
+}/*# sourceMappingURL=style.css.map */

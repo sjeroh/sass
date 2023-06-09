@@ -1,0 +1,30 @@
+@mixin flex($inHorizontal,$justifyCon,$alignItem,$gap) {
+  display: flex;
+
+  @if($inHorizontal == true){
+    flex-direction: row;
+  }@else{
+    flex-direction: column;
+
+  }
+
+  @if($justifyCon=='start'){
+    justify-content: flex-start;
+  }@else if($justifyCon=='center'){
+    justify-content: center;
+  }@else if($justifyCon == 'end'){
+    justify-content: flex-end;
+  }
+
+  @if($alignItem=='start'){
+    align-items: flex-start;
+  }@else if($alignItem=='center'){
+    align-items: center;
+  }@else if($alignItem=='end'){
+    align-items: flex-end;
+  }
+
+  gap:$gap
+  
+
+}

@@ -1,0 +1,58 @@
+.cls {
+  border: 1px solid #b45252;
+}
+
+.cls3, .cls2 {
+  border: 3px solid orange;
+  background-color: blueviolet;
+  font-size: 20px;
+}
+
+.cls2 {
+  color: #fff;
+}
+
+.cls4 {
+  border: 3px solid rgb(133, 105, 53);
+  background-color: rgb(165, 73, 130);
+  font-size: 20px;
+}
+
+.cls5 {
+  border: 3px solid rgb(133, 105, 53);
+  background-color: rgb(165, 73, 130);
+  font-size: 20px;
+}
+
+.cls6 {
+  background-color: #dbdbdb;
+  font-size: 20px;
+  color: #999;
+}
+
+.cls7 {
+  background-color: #f00;
+  font-size: 50px;
+  color: #dbdbdb;
+}
+
+.cls8 {
+  background-color: #213423;
+  font-size: 23px;
+  border: 3px solid #dbdbdb;
+}
+
+.cls9 {
+  background-color: #213423;
+  font-size: 23px;
+  color: #fff;
+}
+
+.hello {
+  background-color: pink;
+  color: #fff;
+}
+
+.cls {
+  font-size: 20px;
+}/*# sourceMappingURL=style.css.map */

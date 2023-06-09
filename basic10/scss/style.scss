@@ -1,0 +1,33 @@
+$primary-color:skyblue;
+//목록형 변수
+
+$box-types:("big", "mid", "sm");
+
+.flex {
+  background-color: $primary-color;
+
+  //nth함수를 이용 //nth(변수, 변수의 번호)
+  .box-#{nth($box-types,1)} {
+    font-size: 20px;
+  }
+
+  .box-#{nth($box-types,3)} {
+    font-size: 13px;
+  }
+}
+
+
+.flex {
+  background-color: $primary-color;
+
+  //nth함수를 이용 //nth(변수, 변수의 번호)
+  $i:1;
+  //@each 각각의 아이템 in 변수
+  @each $bt in $box-types {
+    .box-#{$bt}{
+      font-size: #{2 - 0.3*$i}em;
+    }
+    $i:$i+1;
+  }
+
+}
